@@ -4,10 +4,10 @@ let count = 0;
 let width;
 
 function init(){
-    console.log('resize');
+    // console.log('resize');
     width = document.querySelector('.slider').offsetWidth + 12;
     sliderLine.style.width = width * images.length + 'px';
-    console.log(width);
+    // console.log(width);
     images.forEach(item => {
         item.style.width = width + 'px';
         item.style.height = 'auto';
