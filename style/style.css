@@ -29,7 +29,6 @@ body .container .slider-wrapper {
 }
 
 body .container .slider-wrapper .slider {
-  border: 2px solid #000;
   overflow: hidden;
   width: 100%;
 }
