@@ -20,7 +20,7 @@ window.addEventListener('resize', init);
 
 document.querySelector('.slider-next').addEventListener('click', ()=> {
     count ++;
-    if (count >= images.length){
+    if (count >= images.length) {
         count = 0;
     }
     rollSlider();
